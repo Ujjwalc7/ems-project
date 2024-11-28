@@ -19,8 +19,8 @@ const Login = () => {
       <div className="flex absolute h-screen w-screen items-center justify-around flex-col">
       <div className="w-full mb-[80px] flex items-center justify-center">
         <div>
-          <h1 className="text-4xl text-center">Empower your people to do their best work.</h1>
-          <p className="text-center mt-4">One tool for your whole team. Write, plan and get organized.</p>
+          <h1 className="text-4xl text-center text-white">Empower your people to do their best work.</h1>
+          <p className="text-center mt-4 text-white">One tool for your whole team. Write, plan and get organized.</p>
         </div>
       </div>
       <div className="rounded px-4 flex w-full max-w-[300px] relative flex-col justify-center">
@@ -43,7 +43,7 @@ const Login = () => {
           />
           <button
             type="submit"
-            className="bg-[rgb(184,90,90)] active:bg-[rgb(176,77,77)] rounded-full py-1"
+            className="bg-[rgb(184,90,90)] active:bg-[rgb(176,77,77)] rounded-full py-1 text-white"
           >
             Log In
           </button>
