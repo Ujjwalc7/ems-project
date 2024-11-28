@@ -8,7 +8,8 @@ export default {
     extend: {
       boxShadow:{
         'innerShadow': 'inset 0 2px 16px -8px black',
-      }
+      },
+      
     },
   },
   plugins: [],

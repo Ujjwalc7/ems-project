@@ -66,10 +66,10 @@ const Task = ({ task, role }) => {
           </>
         ) : (
           <>
-          {task.active && <Button variant="contained" color="success" onClick={()=>markAsComplete(task.id)}>
+          {task.active && <Button variant="contained" color="success" className="max-md:w-[110px] max-md:text-xs" onClick={()=>markAsComplete(task.id)}>
           Mark as completed
         </Button>}
-        {task.active && <Button variant="contained" color="error" onClick={()=>markAsFailed(task.id)}>
+        {task.active && <Button variant="contained" color="error" className="max-md:w-[110px] max-md:text-xs" onClick={()=>markAsFailed(task.id)}>
           Mark as failed
         </Button>}
         {task.completed && <Button variant="contained" color="success">
